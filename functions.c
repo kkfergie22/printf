@@ -44,12 +44,12 @@ void write_b(char *str)
 }
 
 /**
- * base_len - Calculates the length for an octal number
+ * base_length - Calculates the length for an octal number
  * @num: The number for which the length is being calculated
  * @base: Base to be calculated by
  * Return: An integer representing the length of a number
  */
-unsigned int base_len(unsigned int num, int base)
+unsigned int base_length(unsigned int num, int base)
 {
 	unsigned int i;
 
