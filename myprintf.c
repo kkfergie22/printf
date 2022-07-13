@@ -11,8 +11,18 @@ int _printf(const char *format, ...)
 	int output;
 	conver_t f_list[] = {
 		{"c", print_c},
-		{"s", print_str},
+		{"s", print_s},
 		{"%", print_per},
+		{"d", print_int},
+		{"i", print_int},
+		{"b", print_bi},
+		{"r", print_rev},
+		{"R", rot13},
+		{"u", unsigned_int},
+		{"o", print_oct},
+		{"x", print_hex},
+		{"X", print_heX},
+		{NULL, NULL}
 	};
 	va_list arg_list;
 
