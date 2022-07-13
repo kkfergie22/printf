@@ -16,6 +16,12 @@ struct convert
 	char *symbol;
 	int (*f)(va_list);
 };
+
+/**
+* typedef - defines a type for struct convert
+*
+*/
+
 typedef struct convert conver_t;
 
 /*Main functions*/
